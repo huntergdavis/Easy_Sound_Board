@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/soundRow1">
+		<Button android:id="@+id/playButton1" android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:text="Play"
+			android:layout_weight="3" />
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:id="@+id/soundFile1"
+			android:text="Click to Load" android:layout_weight="1" />
+	</TableRow>
+
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/soundRow2">
+		<Button android:id="@+id/playButton2" android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:text="Play"
+			android:layout_weight="3" />
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:id="@+id/soundFile2"
+			android:text="Click to Load" android:layout_weight="1" />
+	</TableRow>
+
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/soundRow3">
+		<Button android:id="@+id/playButton3" android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:text="Play"
+			android:layout_weight="3" />
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:id="@+id/soundFile3"
+			android:text="Click to Load" android:layout_weight="1" />
+	</TableRow>
+
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/soundRow4">
+		<Button android:id="@+id/playButton4" android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:text="Play"
+			android:layout_weight="3" />
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:id="@+id/soundFile4"
+			android:text="Click to Load" android:layout_weight="1" />
+	</TableRow>
+
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/soundRow5">
+		<Button android:id="@+id/playButton5" android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:text="Play"
+			android:layout_weight="3" />
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:id="@+id/soundFile5"
+			android:text="Click to Load" android:layout_weight="1" />
+	</TableRow>
+
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/soundRow6">
+		<Button android:id="@+id/playButton6" android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:text="Play"
+			android:layout_weight="3" />
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:id="@+id/soundFile6"
+			android:text="Click to Load" android:layout_weight="1" />
+	</TableRow>
+	
+		<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/soundRow7">
+		<Button android:id="@+id/playButton7" android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:text="Play"
+			android:layout_weight="3" />
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:id="@+id/soundFile7"
+			android:text="Click to Load" android:layout_weight="1" />
+	</TableRow>
+	
+		<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/soundRow8">
+		<Button android:id="@+id/playButton8" android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:text="Play"
+			android:layout_weight="3" />
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:id="@+id/soundFile8"
+			android:text="Click to Load" android:layout_weight="1" />
+	</TableRow>
+
+		<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/soundRow9">
+		<Button android:id="@+id/playButton9" android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:text="Play"
+			android:layout_weight="3" />
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:id="@+id/soundFile9"
+			android:text="Click to Load" android:layout_weight="1" />
+	</TableRow>
+
+
+	<com.google.ads.AdView android:id="@+id/adView"
+		android:layout_alignParentBottom="true" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" ads:adUnitId="a14df6323a5f82f"
+		ads:adSize="BANNER" ads:loadAdOnCreate="false" />
+</LinearLayout>
